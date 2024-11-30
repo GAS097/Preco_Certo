@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login_preco_certo/pallete.dart';
+import 'package:login_preco_certo/selecao_usu_loja.dart';
 
 class Login_button extends StatelessWidget {
   const Login_button({super.key});
@@ -20,7 +21,11 @@ class Login_button extends StatelessWidget {
         borderRadius: BorderRadius.circular(30),
       ),
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(builder: (context) => Selecao_usu_loja())
+          );
+        },
         style: ElevatedButton.styleFrom(
           fixedSize: const Size(360, 55),
           backgroundColor: Colors.transparent,

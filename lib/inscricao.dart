@@ -7,8 +7,8 @@ import 'package:login_preco_certo/widgets/social_button.dart';
 
 import 'package:flutter_svg/flutter_svg.dart';
 
-class Login extends StatelessWidget {
-  const Login({super.key});
+class Inscricao extends StatelessWidget {
+  const Inscricao({super.key});
 
   @override
   Widget build(BuildContext context) {

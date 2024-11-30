@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_preco_certo/inscricao.dart';
 import 'package:login_preco_certo/pallete.dart';
 
 class Inscricao_button extends StatelessWidget {
@@ -20,7 +21,11 @@ class Inscricao_button extends StatelessWidget {
         borderRadius: BorderRadius.circular(30),
       ),
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context).push(
+              MaterialPageRoute(builder: (context) => Inscricao())
+          );
+        },
         style: ElevatedButton.styleFrom(
           fixedSize: const Size(360, 55),
           backgroundColor: Colors.transparent,
