@@ -1,0 +1,1 @@
+ C:\\Projetos\\Flutter\\login_preco_certo\\.dart_tool\\flutter_build\\6dd533ab6291d62ca4f4dec33a784fc2\\native_assets.yaml: 
